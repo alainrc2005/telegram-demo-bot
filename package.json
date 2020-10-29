@@ -4,9 +4,20 @@
   "description": "Telegram Demo Bot",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon --watch src src/app.js"
   },
   "keywords": [],
   "author": "Alain Ramirez Cabrejas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.8",
+    "mysql": "^2.18.1",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
