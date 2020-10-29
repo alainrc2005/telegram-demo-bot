@@ -1,0 +1,12 @@
+{
+  "name": "telegram-demo-bot",
+  "version": "1.0.0",
+  "description": "Telegram Demo Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Alain Ramirez Cabrejas",
+  "license": "ISC"
+}
